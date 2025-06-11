@@ -1,3 +1,7 @@
+## Reference Pipeline
+
+The core experimental pipeline of this project is based on the implementation from the official [MUStARD repository](https://github.com/soujanyaporia/MUStARD).  
+We have adapted and extended their workflow for our cross-lingual multimodal sarcasm detection experiments, including feature extraction, data processing, and baseline modeling.
 
 ## Environment
 The main experiments were conducted using the following Python packages:
