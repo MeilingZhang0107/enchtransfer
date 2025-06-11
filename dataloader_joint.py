@@ -22,12 +22,12 @@ def pickle_loader(filename: str) -> Any:
 
 
 class DataLoader:
-    DATA_PATH = "/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/sarcasm_data.json"
-    AUDIO_PICKLE = "/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/joint_audio_features.p"
-    INDICES_FILE = "/scratch/s5511038/mustard_reproduce/MUStARD/data/split_indices.p"
-    GLOVE_DICT = "/scratch/s5511038/mustard_reproduce/MUStARD/data/glove_full_dict.p"
-    BERT_TARGET_EMBEDDINGS = "/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/joint_bert_output.jsonl"
-    BERT_CONTEXT_EMBEDDINGS = "/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/joint_bert_output.jsonl"
+    DATA_PATH = "data/joint/sarcasm_data.json"
+    AUDIO_PICKLE = "data/joint/joint_audio_features.p"
+    INDICES_FILE = "data/split_indices.p"
+    GLOVE_DICT = "data/glove_full_dict.p"
+    BERT_TARGET_EMBEDDINGS = "data/joint/joint_bert_output.jsonl"
+    BERT_CONTEXT_EMBEDDINGS = "data/joint/joint_bert_output.jsonl"
     UTT_ID = 0
     CONTEXT_ID = 2
     SHOW_ID = 9
@@ -55,8 +55,8 @@ class DataLoader:
         audio_features = pickle_loader(self.AUDIO_PICKLE) if config.use_target_audio else None
 
         if config.use_target_video:
-            video_features_file = h5py.File("/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/joint_resnet_pool5.hdf5")
-            context_video_features_file = h5py.File("/scratch/s5511038/mustard_reproduce/MUStARD/data/joint/joint_resnet_pool5.hdf5")
+            video_features_file = h5py.File("data/joint/joint_resnet_pool5.hdf5")
+            context_video_features_file = h5py.File("data/joint/joint_resnet_pool5.hdf5")
         else:
             video_features_file = None
             context_video_features_file = None
