@@ -49,8 +49,28 @@ For efficient experimentation and reproducibility, this project provides pre-ext
   Text features are extracted using BERT-base-multilingual-cased.
 
 **Download links:**  
-----
+----（）
 
+## Run the Code
+
+### Zero-Shot Inference Example
+
+Suppose you want to test MUStARD.   
+After switching to the `mustard` directory and updating your dataloader and config as needed, run:
+
+For example:
+    python zeroshot_inference.py \
+    --model <path_to_mcsd_trained_model> \
+    --config-key tav
+    
+### Few-Shot Inference Example
+
+To perform few-shot cross-lingual transfer (e.g., using 50 labeled target samples), run:
+
+python test_mustard_fewshot.py \
+    --src-config-key tav \
+    --tgt-config-key tav \
+    --few-shot 50
 
 
 
