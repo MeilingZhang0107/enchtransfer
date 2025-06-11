@@ -1,6 +1,3 @@
-## Raw Data
-
-This project investigates cross-lingual model transfer in multimodal sarcasm detection using the following datasets:
 
 ## Environment
 The main experiments were conducted using the following Python packages:
@@ -13,7 +10,9 @@ torchaudio==2.5.1+cu121
 torchvggish==0.1
 torchvision==0.17.2
 
+## Raw Data
 
+This project investigates cross-lingual model transfer in multimodal sarcasm detection using the following datasets:
 
 ### MUStARD
 
