@@ -3,7 +3,7 @@
 This project investigates cross-lingual model transfer in multimodal sarcasm detection using the following datasets:
 
 ## Environment
-<details> <summary><strong>Click to expand: Python dependencies </strong></summary>
+The main experiments were conducted using the following Python packages:
 h5py==3.13.0
 jsonlines==4.0.0
 numpy==2.1.3
@@ -12,7 +12,7 @@ torch==2.2.2
 torchaudio==2.5.1+cu121
 torchvggish==0.1
 torchvision==0.17.2
-</details>
+
 
 
 ### MUStARD
