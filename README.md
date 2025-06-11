@@ -36,20 +36,22 @@ For efficient experimentation and reproducibility, this project provides pre-ext
   We provide text features extracted by BERT-base-multilingual-cased or extract the text features yourself(https://huggingface.co/bert-base-multilingual-cased).    
 
 **Download links:**  
-- [VGGish audio features for MUStARD](#)  
-- [BERT-base-multilingual-cased text features for MUStARD](#)
+- [Google Drive: MUStARD Data](https://drive.google.com/drive/folders/16W0FcQTtyF6nR0m9LPWzgWr8bCH3koRt?usp=drive_link)
 
 ### MCSD
 
-- **Video:**  
-  Video features are extracted using ResNet-152.
-- **Audio:**  
-  Audio features are extracted using VGGish.
-- **Text:**  
-  Text features are extracted using BERT-base-multilingual-cased.
+  Video features are extracted using ResNet-152. Audio features are extracted using VGGish.Text features are extracted using BERT-base-multilingual-cased.
 
-**Download links:**  
-----（）
+**Download links:**   
+- [Google Drive: MCSD Data](https://drive.google.com/drive/folders/1wCZ-SgmzzClbDvyKXI6VdC6CEz5dOf6Y?usp=drive_link)
+
+
+## Pretrained Models
+
+You can download pretrained model checkpoints used in this project from the following link:
+
+- [Google Drive: Pretrained Models](https://drive.google.com/drive/folders/14DASVEo7lSodRQlBqzSURSDpAlzoHPvg?usp=drive_link)
+
 
 ## Run the Code
 
