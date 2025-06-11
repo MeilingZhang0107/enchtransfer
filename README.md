@@ -80,9 +80,6 @@ Suppose you want to test MUStARD.
 After switching to the `mustard` directory and updating your dataloader and config as needed, run:
 
 For example:
-    python zeroshot_inference.py \
-    --model <path_to_mcsd_trained_model> \
-    --config-key tav
     
 ### Few-Shot Inference Example
 
@@ -92,6 +89,104 @@ python fewshot.py \
     --src-config-key tav \
     --tgt-config-key tav \
     --few-shot 50
+
+
+
+## Config
+
+Below are example configurations for different experimental modalities, all with context enabled.
+Copy the relevant block into your configuration file as needed.
+
+<details>
+<summary><strong>Audio-only (with context)</strong></summary>
+
+```python
+use_context = True
+use_author = False
+
+use_bert = True
+
+use_target_text = False
+use_target_audio = True
+use_target_video = False
+
+speaker_independent = False
+```
+
+</details>
+
+<details>
+<summary><strong>Text-only (with context)</strong></summary>
+
+```python
+use_context = True
+use_author = False
+
+use_bert = True
+
+use_target_text = True
+use_target_audio = False
+use_target_video = False
+
+speaker_independent = False
+```
+
+</details>
+
+<details>
+<summary><strong>Video-only (with context)</strong></summary>
+
+```python
+use_context = True
+use_author = False
+
+use_bert = True
+
+use_target_text = False
+use_target_audio = False
+use_target_video = True
+
+speaker_independent = False
+```
+
+</details>
+
+<details>
+<summary><strong>Text + Audio (with context)</strong></summary>
+
+```python
+use_context = True
+use_author = False
+
+use_bert = True
+
+use_target_text = True
+use_target_audio = True
+use_target_video = False
+
+speaker_independent = False
+```
+
+</details>
+
+<details>
+<summary><strong>Text + Audio + Video (with context)</strong></summary>
+
+```python
+use_context = True
+use_author = False
+
+use_bert = True
+
+use_target_text = True
+use_target_audio = True
+use_target_video = True
+
+speaker_independent = False
+```
+
+</details>
+
 
 
 
