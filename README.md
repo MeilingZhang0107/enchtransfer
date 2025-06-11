@@ -67,7 +67,7 @@ For example:
 
 To perform few-shot cross-lingual transfer (e.g., using 50 labeled target samples), run:
 
-python test_mustard_fewshot.py \
+python fewshot.py \
     --src-config-key tav \
     --tgt-config-key tav \
     --few-shot 50
