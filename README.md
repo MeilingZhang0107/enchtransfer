@@ -81,7 +81,7 @@ Suppose you want to test MUStARD.
 After switching to the `mustard` directory and updating your dataloader and config as needed, run:
 
 For example:
-```bash
+```
     python zeroshot_inference.py \
     --model <path_to_mcsd_trained_model> \
     --config-key tav
@@ -90,7 +90,7 @@ For example:
 ### Few-Shot Inference Example
 
 To perform few-shot cross-lingual transfer (e.g., using 50 labeled target samples), run:
-```bash
+```
 python fewshot.py \
     --src-config-key tav \
     --tgt-config-key tav \
