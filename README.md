@@ -5,6 +5,7 @@ We have adapted and extended their workflow for our cross-lingual multimodal sar
 
 ## Environment
 The main experiments were conducted using the following Python packages:
+ ```
 h5py==3.13.0
 jsonlines==4.0.0
 numpy==2.1.3
@@ -13,7 +14,7 @@ torch==2.2.2
 torchaudio==2.5.1+cu121
 torchvggish==0.1
 torchvision==0.17.2
-
+ ```
 ## Raw Data
 
 This project investigates cross-lingual model transfer in multimodal sarcasm detection using the following datasets:
@@ -84,6 +85,7 @@ For example:
     python zeroshot_inference.py \
     --model <path_to_mcsd_trained_model> \
     --config-key tav
+ ```
     
 ### Few-Shot Inference Example
 
@@ -93,7 +95,7 @@ python fewshot.py \
     --src-config-key tav \
     --tgt-config-key tav \
     --few-shot 50
-
+ ```
 
 
 ## Config
