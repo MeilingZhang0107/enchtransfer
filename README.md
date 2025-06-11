@@ -2,6 +2,17 @@
 
 This project investigates cross-lingual model transfer in multimodal sarcasm detection using the following datasets:
 
+## Environment
+The main experiments were conducted using the following Python packages:
+h5py==3.13.0
+jsonlines==4.0.0
+numpy==2.1.3
+scikit-learn==1.6.1
+torch==2.2.2
+torchaudio==2.5.1+cu121
+torchvggish==0.1
+torchvision==0.17.2
+
 ### MUStARD
 
 - **Description:**  
@@ -45,6 +56,9 @@ For efficient experimentation and reproducibility, this project provides pre-ext
 **Download links:**   
 - [Google Drive: MCSD Data](https://drive.google.com/drive/folders/1wCZ-SgmzzClbDvyKXI6VdC6CEz5dOf6Y?usp=drive_link)
 
+### Joint Training
+**Download links:**   
+- [Google Drive: Joint Data](https://drive.google.com/drive/folders/1fO4L3QfqXRjVq3WQ9n_m--SiQmSyhG8B?usp=drive_link)
 
 ## Pretrained Models
 
