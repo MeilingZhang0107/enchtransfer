@@ -31,7 +31,7 @@ This project investigates cross-lingual model transfer in multimodal sarcasm det
 - **Description:**  
   MCSD (Mandarin Chinese Sarcasm Dataset) is a multimodal sarcasm detection dataset for Mandarin Chinese, with similar structure to MUStARD, including text, audio, and video.
 - **Direct Download:**  
-  [Google Drive Link](https://drive.google.com/drive/folders/1uQrdBMxYhA4nOEAn_AtZgfCBjzi73G7R?usp=drive_link)
+  [Google Drive Link](https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/A0NLTQ)
 
 ### Usage Notice
 
